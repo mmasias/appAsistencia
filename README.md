@@ -1,5 +1,16 @@
 # appAsistencia
 
+|![](/images/profesorAsistencia.png)||
+|-|-|
+||Lo que necesitamos es una herramienta que nos facilite el control de asistencia de nuestros cursos. Cada día pierdo demasiado tiempo pasando lista y luego calculando manualmente quién está en riesgo de reprobar por inasistencias.
+||Necesito poder tener mi lista de estudiantes bien organizada, con sus nombres completos y algún identificador único para cada uno. Cuando estoy en clase, quiero marcar rápidamente quién asistió y quién no, sin complicaciones.
+||Es importante que cada sesión tenga su fecha y que pueda indicar qué tema vimos ese día, especialmente para distinguir clases normales de exámenes o actividades especiales.
+||Lo que más me ayudaría es poder ver de un vistazo los porcentajes de asistencia: quiero saber qué estudiantes están faltando demasiado, cuáles son las sesiones con mayor ausentismo y cuál es la tendencia general del grupo.
+||No necesito nada complicado, debe ser sencillo de usar y entender a simple vista. Uso mucho los colores para identificar rápidamente situaciones (rojo para ausencias, verde para presencias). Y como llevo varios grupos, debe funcionar bien aunque tenga listas grandes.
+||Mis estudiantes siempre me preguntan sobre su asistencia, así que sería útil que ellos pudieran consultar esta información, pero sin poder modificarla, claro está. Solo yo debo poder actualizar los datos.
+||Y lo más importante: necesito que esto me sirva durante todo el semestre y que pueda adaptarse a mis diferentes cursos, algunos tienen dos sesiones por semana, otros solo una, y las fechas pueden variar si hay suspensiones o recuperaciones de clase.
+||![](/images/profesorAsistenciaConApp.png)|
+
 ## Requisitos funcionales
 
 ### Gestión de alumnos
