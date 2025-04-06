@@ -58,3 +58,4 @@
 |Interfaz simple|Actualización automática de cálculos al registrar nuevas asistencias|Persistencia de datos a lo largo del periodo académico|Adaptación a diferentes formatos de curso (frecuencia de sesiones variable)|Control de acceso por perfil de usuario|
 |Visualización clara mediante colores para facilitar la interpretación|Capacidad para manejar grupos grandes de estudiantes|Capacidad para registrar múltiples sesiones durante un semestre/curso|Posibilidad de marcar diferentes tipos de sesiones|Protección de datos modificables|
 |Acceso rápido a la información||||Registro de cambios realizados|
+
