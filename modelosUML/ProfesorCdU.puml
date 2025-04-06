@@ -1,0 +1,59 @@
+@startuml
+
+left to right direction
+
+actor "Profesor" as profesor
+
+rectangle "Sistema de Asistencia" {
+  usecase "Iniciar sesión" as UC1
+  usecase "Gestionar cursos" as UC2
+  usecase "Registrar asistencia" as UC3
+  usecase "Visualizar estadísticas" as UC4
+  usecase "Gestionar estudiantes" as UC5
+  usecase "Programar sesiones" as UC6
+  usecase "Generar reportes" as UC7
+  usecase "Modificar asistencia pasada" as UC8
+  usecase "Configurar parámetros del curso" as UC9
+  
+  usecase "Añadir nuevo curso" as UC2_1
+  usecase "Editar información del curso" as UC2_2
+  usecase "Archivar curso" as UC2_3
+  
+  usecase "Pasar lista" as UC3_1
+  usecase "Importar asistencia" as UC3_2
+  
+  usecase "Ver porcentajes individuales" as UC4_1
+  usecase "Ver porcentaje grupal" as UC4_2
+  usecase "Identificar tendencias" as UC4_3
+  
+  usecase "Añadir estudiante" as UC5_1
+  usecase "Editar información de estudiante" as UC5_2
+  usecase "Dar de baja a estudiante" as UC5_3
+  
+  UC2 ..> UC2_1 : <<include>>
+  UC2 ..> UC2_2 : <<include>>
+  UC2 ..> UC2_3 : <<include>>
+  
+  UC3 ..> UC3_1 : <<include>>
+  UC3_1 <.. UC3_2 : <<extend>>
+  
+  UC4 ..> UC4_1 : <<include>>
+  UC4 ..> UC4_2 : <<include>>
+  UC4 <.. UC4_3 : <<extend>>
+  
+  UC5 ..> UC5_1 : <<include>>
+  UC5 ..> UC5_2 : <<include>>
+  UC5 ..> UC5_3 : <<include>>
+}
+
+profesor --> UC1
+profesor --> UC2
+profesor --> UC3
+profesor --> UC4
+profesor --> UC5
+profesor --> UC6
+profesor --> UC7
+profesor --> UC8
+profesor --> UC9
+
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+
+Profesor  -d-  Asignatura : imparte > 
+Estudiante -r- Asignatura : inscrito  >
+
+Asignatura --d- Sesion : conformada por >
+Sesion  --  Asistencia : tiene >
+Estudiante  --  Asistencia : registra >
+
+Asistencia -d- EstadisticaAsistencia : genera >
+Asignatura -d- EstadisticaAsistencia : tiene >
+
+@enduml
